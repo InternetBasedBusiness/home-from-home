@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "server": "babel-node server/index.js"
+    "server": "nodemon --watch server --exec babel-node -- server/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
