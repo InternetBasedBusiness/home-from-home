@@ -28,7 +28,7 @@ class SignupForm extends React.Component {
   render() {
     return (
       <form onSubmit={this.onSubmit}>
-        <h1>Join our community!</h1>
+        <h1>Please enter your deatails!</h1>
 
         <div className="form-group">
           <label className="control-label">Username</label>
